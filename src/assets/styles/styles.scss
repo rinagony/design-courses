@@ -1,0 +1,62 @@
+@import 'variables.scss';
+p, h1, h2, h2, h3, h4, h5, span, a, input {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h2, h3, h4, h5 {
+  color: #2e145a;
+}
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+button:active, button:focus {
+  outline: none !important;
+}
+
+.container {
+    width: 86vw;
+    margin: 0 auto;
+}
+.blackBtn {
+  background: #5f2b77;
+  border-bottom: 3px solid #5f2b77;
+  color: #fff;
+  -webkit-box-shadow: 0px 4px 0px 0px #31b698;
+  box-shadow: 0px 4px 0px 0px #31b698;
+  border-right: 2px solid #5f2b77;
+  border-left: 2px solid #5f2b77;
+  border-top: 1px solid #5f2b77;
+  padding: 13px 22px;
+  outline: none !important;
+  font-size: 10px;
+  transition: 0.2s;
+  &:hover {
+    background: #34044b;
+    color: #fff;
+  }
+}
+
+.whiteBtn {
+  background: inherit;
+  border-bottom: 3px solid #5f2b77;
+  color: #5f2b77;
+  -webkit-box-shadow: 0px 4px 0px 0px #31b698;
+  box-shadow: 0px 4px 0px 0px #31b698;
+  border-right: 2px solid #5f2b77;
+  border-right: 4px solid #5f2b77;
+  border-left: 4px solid #5f2b77;
+  border-top: 1px solid #5f2b77;
+  padding: 13px;
+  outline: none !important;
+  font-size: 10px;
+  transition: 0.2s;
+  &:hover {
+    background: #34044b;
+    color: #fff;
+  }
+}
